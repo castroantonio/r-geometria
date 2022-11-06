@@ -58,8 +58,6 @@ Links para itens que constam na apresentação:
 - [Tutorial R - Classes S3 - Professor Eduardo
   Ogasawara](https://youtu.be/UtMsB-8MuKU)
 
-- [ggplot2](https://ggplot2.tidyverse.org/)
-
 - [Submit a package to CRAN](https://cran.r-project.org/submit.html)
 
 ## Instalação
