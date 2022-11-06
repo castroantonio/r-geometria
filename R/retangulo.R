@@ -1,3 +1,14 @@
+#' Retangulo
+#'
+#' Representa um polígono com quatro lados
+#'
+#' Define um objeto da geometria que é uma figura plana formada por um quatro
+#' lados, sendo os lados paralelos de mesmo tamanho.
+#'
+#' @usage retangulo(altura, largura)
+#' @param altura Define a altura da figura geométrica.
+#' @param largura Define a largura da figura geométrica.
+#' @return Um novo objeto do tipo poligono
 #' @export
 retangulo <- function(altura, largura) {
   objeto <- poligono(4)

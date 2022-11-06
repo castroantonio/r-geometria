@@ -1,3 +1,13 @@
+#' Polígono
+#'
+#' Representa um polígono
+#'
+#' Define um objeto da geometria que é  uma figura plana formada por um número
+#' finito de segmentos de reta conectados para formar seus lados.
+#'
+#' @usage poligono(lados)
+#' @param lados Define o número de lados da figura geométrica.
+#' @return Um novo objeto do tipo poligono
 #' @export
 poligono <- function(lados) {
   if (lados<=2) stop("Deve ter ao menos 3 lados")
@@ -12,6 +22,16 @@ poligono <- function(lados) {
 }
 
 
+#' Perímetro
+#'
+#' Calcula o perímetro de uma figura geométrica
+#'
+#' Efetua o cálculo do perímetro de uma figura geométrica baseado no número
+#' de lados e das dimenções dos segmentos que representam os lados da figura.
+#'
+#' @usage perimetro(objeto)
+#' @param objeto Um objeto do tipo poligono.
+#' @return O perímetro da figura geométrica.
 #' @export
 perimetro <- function(objeto) {
   UseMethod("perimetro")
@@ -24,6 +44,16 @@ perimetro.default <- function(objeto) {
 }
 
 
+#' Área
+#'
+#' Calcula a área de uma figura geométrica
+#'
+#' Efetua o cálculo da área de uma figura geométrica baseado nas dimenções dos
+#' segmentos que representam os lados da figura.
+#'
+#' @usage area(objeto)
+#' @param objeto Um objeto do tipo poligono.
+#' @return A área da figura geométrica.
 #' @export
 area <- function(objeto) {
   UseMethod("area")

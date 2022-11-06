@@ -1,0 +1,31 @@
+\nonstopmode{}
+\documentclass[letterpaper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8]{inputenc} % @SET ENCODING@
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `geometria'}}
+\par\bigskip{\large \today}
+\end{center}
+\inputencoding{utf8}
+\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdftitle = {geometria: Cálculos Geométricos}}}{}
+\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdfauthor = {Antonio Castro; Rafaelli Coutinho; Eduardo Ogasawara}}}{}
+\begin{description}
+\raggedright{}
+\item[Title]\AsIs{Cálculos Geométricos}
+\item[Version]\AsIs{0.0.0.9000}
+\item[Description]\AsIs{Faz cálculos geométricos simples: área e perímetro.}
+\item[License]\AsIs{MIT + file LICENSE}
+\item[URL]\AsIs{}\url{https://github.com/castroantonio/r-geometria}\AsIs{}
+\item[Encoding]\AsIs{UTF-8}
+\item[Roxygen]\AsIs{list(markdown = TRUE)}
+\item[RoxygenNote]\AsIs{7.2.1}
+\item[Imports]\AsIs{stats}
+\item[Suggests]\AsIs{testthat (>= 3.0.0)}
+\item[Config/testthat/edition]\AsIs{3}
+\end{description}
+\Rdcontents{\R{} topics documented:}
