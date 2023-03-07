@@ -1,0 +1,38 @@
+---
+title: "exemplo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{exemplo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Pacote R Geometria 
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(geometria)
+```
+
+## Exemplos de funcionalidade
+
+Criando um retângulo, e mostrando seus atributos:
+```{r}
+ret <- retangulo(10,3)
+
+print("  Retangulo  ")
+print(paste("Nº de lados:", ret$lados))
+print(paste("Altura:", ret$altura))
+print(paste("Largura", ret$largura))
+```
+
+Desvio padrão:
+```{r}
+desvio_padrao(c(2, 6, 10))
+```
