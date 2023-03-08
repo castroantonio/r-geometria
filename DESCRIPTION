@@ -28,7 +28,7 @@ Authors@R:
    )
 Description: Faz cálculos geométricos simples: área e perímetro.
 License: MIT + file LICENSE
-URL: https://github.com/castroantonio/r-geometria
+URL: https://github.com/castroantonio/r-geometria, https://castroantonio.github.io/r-geometria/
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
